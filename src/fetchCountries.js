@@ -5,4 +5,4 @@ function fetchCountries(name) {
     return fetch(`${BASE_URL}/name/${name}${FIELDS}`).then((response) => response.json());
 };
     
-export {fetchCountries}
+export { fetchCountries };
